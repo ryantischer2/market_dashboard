@@ -198,7 +198,7 @@
             return;
         }
         var html = '';
-        var groupOrder = ['Indices', 'S&P Style ETFs', 'Sel Sectors', 'EW Sectors', 'Industries', 'Countries'];
+        var groupOrder = Object.keys(snapshot.groups);
         for (var g = 0; g < groupOrder.length; g++) {
             var groupName = groupOrder[g];
             var rows = snapshot.groups[groupName];
