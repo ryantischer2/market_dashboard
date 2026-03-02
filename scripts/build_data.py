@@ -51,7 +51,8 @@ STOCK_GROUPS = {
     "Countries": [
         "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
         "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
-    ]
+    ],
+    "At 200 DMA": ["NU", "AMT", "BAC", "AVGO", "JPM", "HPE", "NVDA", "MDLZ", "HD", "WFC", "TMUS", "TMO", "RIVN"]
 }
 
 LEVERAGED_ETFS = {

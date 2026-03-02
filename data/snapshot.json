@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-03-01T05:43:05.501348Z",
+  "built_at": "2026-03-02T04:22:22.255233Z",
   "groups": {
     "Indices": [
       {
@@ -2196,6 +2196,190 @@
         "short": [],
         "abc": "C"
       }
+    ],
+    "At 200 DMA": [
+      {
+        "ticker": "NU",
+        "daily": -0.53,
+        "intra": 1.77,
+        "5d": -14.55,
+        "20d": -20.15,
+        "atr_pct": 4.7,
+        "dist_sma50_atr": -2.65,
+        "rs": 5.0,
+        "rs_chart": "data/charts/NU.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "AMT",
+        "daily": 3.7,
+        "intra": 3.06,
+        "5d": 2.43,
+        "20d": 5.8,
+        "atr_pct": 3.0,
+        "dist_sma50_atr": 2.55,
+        "rs": 75.0,
+        "rs_chart": "data/charts/AMT.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "BAC",
+        "daily": -4.72,
+        "intra": -2.45,
+        "5d": -6.09,
+        "20d": -6.12,
+        "atr_pct": 3.0,
+        "dist_sma50_atr": -2.54,
+        "rs": 0.0,
+        "rs_chart": "data/charts/BAC.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "AVGO",
+        "daily": -0.67,
+        "intra": 2.85,
+        "5d": -3.94,
+        "20d": -3.38,
+        "atr_pct": 4.6,
+        "dist_sma50_atr": -1.05,
+        "rs": 100.0,
+        "rs_chart": "data/charts/AVGO.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "JPM",
+        "daily": -1.9,
+        "intra": 0.1,
+        "5d": -3.38,
+        "20d": -2.0,
+        "atr_pct": 2.7,
+        "dist_sma50_atr": -1.5,
+        "rs": 5.0,
+        "rs_chart": "data/charts/JPM.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "HPE",
+        "daily": 3.02,
+        "intra": 2.04,
+        "5d": 0.47,
+        "20d": -2.45,
+        "atr_pct": 3.8,
+        "dist_sma50_atr": -1.26,
+        "rs": 25.0,
+        "rs_chart": "data/charts/HPE.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "NVDA",
+        "daily": -4.16,
+        "intra": -2.24,
+        "5d": -6.65,
+        "20d": -7.96,
+        "atr_pct": 3.6,
+        "dist_sma50_atr": -1.26,
+        "rs": 35.0,
+        "rs_chart": "data/charts/NVDA.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "MDLZ",
+        "daily": 2.74,
+        "intra": 2.5,
+        "5d": 4.73,
+        "20d": 7.45,
+        "atr_pct": 2.4,
+        "dist_sma50_atr": 3.12,
+        "rs": 90.0,
+        "rs_chart": "data/charts/MDLZ.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "HD",
+        "daily": 1.5,
+        "intra": 1.83,
+        "5d": -0.4,
+        "20d": 2.4,
+        "atr_pct": 2.5,
+        "dist_sma50_atr": 1.07,
+        "rs": 30.0,
+        "rs_chart": "data/charts/HD.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "WFC",
+        "daily": -5.62,
+        "intra": -3.8,
+        "5d": -8.17,
+        "20d": -9.7,
+        "atr_pct": 3.7,
+        "dist_sma50_atr": -2.73,
+        "rs": 0.0,
+        "rs_chart": "data/charts/WFC.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "TMUS",
+        "daily": 2.34,
+        "intra": 1.71,
+        "5d": 1.24,
+        "20d": 15.24,
+        "atr_pct": 2.7,
+        "dist_sma50_atr": 3.32,
+        "rs": 85.0,
+        "rs_chart": "data/charts/TMUS.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "TMO",
+        "daily": 0.19,
+        "intra": 1.04,
+        "5d": 1.99,
+        "20d": -12.0,
+        "atr_pct": 2.6,
+        "dist_sma50_atr": -3.5,
+        "rs": 55.0,
+        "rs_chart": "data/charts/TMO.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "RIVN",
+        "daily": -1.79,
+        "intra": -0.07,
+        "5d": 0.39,
+        "20d": 1.05,
+        "atr_pct": 6.1,
+        "dist_sma50_atr": -1.75,
+        "rs": 5.0,
+        "rs_chart": "data/charts/RIVN.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      }
     ]
   },
   "column_ranges": {
@@ -2305,6 +2489,24 @@
       "20d": [
         -11.54,
         21.58
+      ]
+    },
+    "At 200 DMA": {
+      "daily": [
+        -5.62,
+        3.7
+      ],
+      "intra": [
+        -3.8,
+        3.06
+      ],
+      "5d": [
+        -14.55,
+        4.73
+      ],
+      "20d": [
+        -20.15,
+        15.24
       ]
     }
   }
