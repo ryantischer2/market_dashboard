@@ -38,20 +38,6 @@ KEY_EVENTS = [
 ]
 
 STOCK_GROUPS = {
-    "Indices": ["QQQE", "MGK", "QQQ", "IBIT", "RSP", "MDY", "IWM", "TLT", "SPY", "ETHA", "DIA"],
-    "S&P Style ETFs": ["IJS", "IJR", "IJT", "IJJ", "IJH", "IJK", "IVE", "IVV", "IVW"],
-    "Sel Sectors": ["XLK", "XLI", "XLC", "XLF", "XLU", "XLY", "XLRE", "XLP", "XLB", "XLE", "XLV"],
-    "EW Sectors": ["RSPT", "RSPC", "RSPN", "RSPF", "RSP", "RSPD", "RSPU", "RSPR", "RSPH", "RSPM", "RSPS", "RSPG"],
-    "Industries": [
-        "TAN", "KCE", "IBUY", "QQQE", "JETS", "IBB", "SMH", "CIBR", "UTES", "ROBO", "IGV", "WCLD", "ITA", "PAVE", "BLOK", "AIQ", "IYZ", "PEJ", "FDN", "KBE",
-        "UNG", "BOAT", "KWEB", "KRE", "IBIT", "XRT", "IHI", "DRIV", "MSOS", "SOCL", "XLU", "ARKF", "SLX", "ARKK", "XTN", "XME", "KIE", "GLD", "GXC", "SCHH",
-        "GDX", "IPAY", "IWM", "XOP", "VNQ", "EATZ", "FXI", "DBA", "ICLN", "SILJ", "REZ", "LIT", "SLV", "XHB", "XHE", "PBJ", "USO", "DBC", "FCG", "XBI",
-        "ARKG", "CPER", "XES", "OIH", "PPH", "FNGS", "URA", "WGMI", "REMX"
-    ],
-    "Countries": [
-        "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
-        "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
-    ],
     "Brian's Picks": ["UAMY", "GGG", "BZH", "EPD", "COLM", "ZWS", "TROW", "FTV", "ADNT", "ATEN", "FSLY", "USFD", "DVN", "LBTYA", "HLIT"],
     "At 200 DMA": ["NU", "AMT", "BAC", "AVGO", "JPM", "HPE", "NVDA", "MDLZ", "HD", "WFC", "TMUS", "TMO", "RIVN"]
 }
@@ -384,7 +370,7 @@ def main():
         "TICKER_TO_SECTOR": TICKER_TO_SECTOR,
         "Industries_COLORS": Industries_COLORS,
         "SECTOR_ORDER": list(SECTOR_COLORS.keys()),
-        "default_symbol": STOCK_GROUPS["Indices"][0] if STOCK_GROUPS["Indices"] else "SPY",
+        "default_symbol": STOCK_GROUPS.get("Indices", list(STOCK_GROUPS.values())[0])[0] if STOCK_GROUPS else "SPY",
     }
 
     snapshot_path = os.path.join(out_dir, "snapshot.json")
