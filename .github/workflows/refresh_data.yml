@@ -26,6 +26,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Update 200 DMA list
+        run: |
+          python scripts/update_200dma.py
+
       - name: Generate data
         run: |
           python scripts/build_data.py --out-dir data
