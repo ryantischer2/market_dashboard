@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-03-02T04:43:21.854023Z",
+  "built_at": "2026-03-02T04:54:30.582411Z",
   "groups": {
     "Brian's Picks": [
       {
@@ -208,6 +208,36 @@
         "dist_sma50_atr": 1.04,
         "rs": 40.0,
         "rs_chart": "data/charts/HLIT.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      }
+    ],
+    "Tic's Picks": [
+      {
+        "ticker": "GRMN",
+        "daily": -0.52,
+        "intra": 0.62,
+        "5d": 1.58,
+        "20d": 23.54,
+        "atr_pct": 3.1,
+        "dist_sma50_atr": 5.95,
+        "rs": 75.0,
+        "rs_chart": "data/charts/GRMN.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "ALSN",
+        "daily": 0.39,
+        "intra": 1.05,
+        "5d": 5.43,
+        "20d": 12.32,
+        "atr_pct": 2.5,
+        "dist_sma50_atr": 5.85,
+        "rs": 20.0,
+        "rs_chart": "data/charts/ALSN.png",
         "long": [],
         "short": [],
         "abc": "A"
@@ -755,6 +785,24 @@
       "20d": [
         -9.72,
         98.75
+      ]
+    },
+    "Tic's Picks": {
+      "daily": [
+        -0.52,
+        0.39
+      ],
+      "intra": [
+        0.62,
+        1.05
+      ],
+      "5d": [
+        1.58,
+        5.43
+      ],
+      "20d": [
+        12.32,
+        23.54
       ]
     },
     "S/D Pullbacks": {

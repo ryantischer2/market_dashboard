@@ -39,6 +39,7 @@ KEY_EVENTS = [
 
 STOCK_GROUPS = {
     "Brian's Picks": ["UAMY", "GGG", "BZH", "EPD", "COLM", "ZWS", "TROW", "FTV", "ADNT", "ATEN", "FSLY", "USFD", "DVN", "LBTYA", "HLIT"],
+    "Tic's Picks": ["GRMN", "ALSN"],
     "S/D Pullbacks": ["MU", "RKLB", "ENPH", "LRCX", "AMAT", "LMT", "DE", "ON", "CAT", "TXN", "CMCSA", "HUT", "MPWR", "BA", "DVN", "GILD", "EL", "PSX", "MAR"],
     "Squeeze Setups": ["BYND"],
     "At 200 DMA": ["CROX", "NU", "AMT", "BAC", "AVGO", "JPM", "GME", "BITF", "HPE", "NVDA", "MDLZ", "HD", "WFC", "TMUS", "TMO", "RIVN", "ACLS"]
