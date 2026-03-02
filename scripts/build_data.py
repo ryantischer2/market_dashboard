@@ -52,6 +52,7 @@ STOCK_GROUPS = {
         "EZA", "ARGT", "EWA", "THD", "EIDO", "EWC", "GREK", "EWP", "EWG", "EWL", "EUFN", "EWY", "IEUR", "EFA", "ACWI",
         "IEV", "EWQ", "EWI", "EWJ", "EWW", "ECH", "EWD", "ASHR", "EWS", "KSA", "INDA", "EEM", "EWZ", "TUR", "EWH", "EWT", "MCHI"
     ],
+    "Brian's Picks": ["UAMY", "GGG", "BZH", "EPD", "COLM", "ZWS", "TROW", "FTV", "ADNT", "ATEN", "FSLY", "USFD", "DVN", "LBTYA", "HLIT"],
     "At 200 DMA": ["NU", "AMT", "BAC", "AVGO", "JPM", "HPE", "NVDA", "MDLZ", "HD", "WFC", "TMUS", "TMO", "RIVN"]
 }
 

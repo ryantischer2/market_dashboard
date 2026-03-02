@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-03-02T04:22:22.255233Z",
+  "built_at": "2026-03-02T04:25:55.808019Z",
   "groups": {
     "Indices": [
       {
@@ -2197,6 +2197,218 @@
         "abc": "C"
       }
     ],
+    "Brian's Picks": [
+      {
+        "ticker": "UAMY",
+        "daily": 0.34,
+        "intra": 0.56,
+        "5d": 20.97,
+        "20d": 7.84,
+        "atr_pct": 10.2,
+        "dist_sma50_atr": 1.68,
+        "rs": 100.0,
+        "rs_chart": "data/charts/UAMY.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "GGG",
+        "daily": 0.99,
+        "intra": 1.68,
+        "5d": 0.89,
+        "20d": 7.24,
+        "atr_pct": 1.8,
+        "dist_sma50_atr": 3.83,
+        "rs": 50.0,
+        "rs_chart": "data/charts/GGG.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "BZH",
+        "daily": -1.01,
+        "intra": -0.12,
+        "5d": -5.61,
+        "20d": 5.66,
+        "atr_pct": 3.9,
+        "dist_sma50_atr": 2.24,
+        "rs": 50.0,
+        "rs_chart": "data/charts/BZH.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "EPD",
+        "daily": 0.44,
+        "intra": 0.19,
+        "5d": -0.58,
+        "20d": 5.95,
+        "atr_pct": 1.8,
+        "dist_sma50_atr": 4.04,
+        "rs": 70.0,
+        "rs_chart": "data/charts/EPD.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "COLM",
+        "daily": -0.24,
+        "intra": 0.91,
+        "5d": -3.57,
+        "20d": 14.43,
+        "atr_pct": 3.8,
+        "dist_sma50_atr": 1.96,
+        "rs": 30.0,
+        "rs_chart": "data/charts/COLM.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "ZWS",
+        "daily": 0.04,
+        "intra": 1.13,
+        "5d": 0.26,
+        "20d": 9.82,
+        "atr_pct": 2.5,
+        "dist_sma50_atr": 2.24,
+        "rs": 60.0,
+        "rs_chart": "data/charts/ZWS.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "TROW",
+        "daily": -1.9,
+        "intra": -0.5,
+        "5d": -0.79,
+        "20d": -9.72,
+        "atr_pct": 2.8,
+        "dist_sma50_atr": -2.51,
+        "rs": 10.0,
+        "rs_chart": "data/charts/TROW.png",
+        "long": [],
+        "short": [],
+        "abc": "C"
+      },
+      {
+        "ticker": "FTV",
+        "daily": -1.0,
+        "intra": 0.14,
+        "5d": 1.58,
+        "20d": 11.53,
+        "atr_pct": 3.1,
+        "dist_sma50_atr": 1.81,
+        "rs": 25.0,
+        "rs_chart": "data/charts/FTV.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "ADNT",
+        "daily": -1.22,
+        "intra": 0.0,
+        "5d": -2.17,
+        "20d": 15.59,
+        "atr_pct": 4.1,
+        "dist_sma50_atr": 2.29,
+        "rs": 50.0,
+        "rs_chart": "data/charts/ADNT.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "ATEN",
+        "daily": 0.0,
+        "intra": 1.1,
+        "5d": -3.6,
+        "20d": 9.07,
+        "atr_pct": 3.3,
+        "dist_sma50_atr": 1.52,
+        "rs": 45.0,
+        "rs_chart": "data/charts/ATEN.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "FSLY",
+        "daily": 6.46,
+        "intra": 9.26,
+        "5d": 5.75,
+        "20d": 98.75,
+        "atr_pct": 7.9,
+        "dist_sma50_atr": 8.47,
+        "rs": 100.0,
+        "rs_chart": "data/charts/FSLY.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "USFD",
+        "daily": 1.31,
+        "intra": 1.86,
+        "5d": -0.1,
+        "20d": 14.66,
+        "atr_pct": 2.8,
+        "dist_sma50_atr": 5.15,
+        "rs": 60.0,
+        "rs_chart": "data/charts/USFD.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "DVN",
+        "daily": 2.04,
+        "intra": 0.51,
+        "5d": -1.94,
+        "20d": 8.99,
+        "atr_pct": 3.1,
+        "dist_sma50_atr": 3.32,
+        "rs": 90.0,
+        "rs_chart": "data/charts/DVN.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "LBTYA",
+        "daily": 1.76,
+        "intra": 2.82,
+        "5d": 1.59,
+        "20d": 14.57,
+        "atr_pct": 4.0,
+        "dist_sma50_atr": 3.32,
+        "rs": 80.0,
+        "rs_chart": "data/charts/LBTYA.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      },
+      {
+        "ticker": "HLIT",
+        "daily": 0.95,
+        "intra": 2.61,
+        "5d": -2.48,
+        "20d": 7.81,
+        "atr_pct": 4.6,
+        "dist_sma50_atr": 1.04,
+        "rs": 40.0,
+        "rs_chart": "data/charts/HLIT.png",
+        "long": [],
+        "short": [],
+        "abc": "A"
+      }
+    ],
     "At 200 DMA": [
       {
         "ticker": "NU",
@@ -2489,6 +2701,24 @@
       "20d": [
         -11.54,
         21.58
+      ]
+    },
+    "Brian's Picks": {
+      "daily": [
+        -1.9,
+        6.46
+      ],
+      "intra": [
+        -0.5,
+        9.26
+      ],
+      "5d": [
+        -5.61,
+        20.97
+      ],
+      "20d": [
+        -9.72,
+        98.75
       ]
     },
     "At 200 DMA": {
