@@ -51,6 +51,8 @@ UNIVERSE = [
     'MARA','RIOT','CLSK','HUT','BITF','IREN',
     'SMMT','RXRX','DNA','CRSP','NTLA','BEAM','EDIT',
     'EWX','GRTS','LQDA','ACLS',  # tickers from the video
+    # 200 SMA bounce candidates (Mar 4 2026)
+    'ZM','HASI','BE','MP','QRVO','GRMN','ALSN',
 ]
 
 # Deduplicate
