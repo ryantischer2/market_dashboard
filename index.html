@@ -130,7 +130,8 @@
             </div>
         </div>
         <div id="groups-container"></div>
-        <div class="key-hint">↑ ↓ Use arrow keys to navigate · Data auto-refreshed daily via GitHub Actions · Yahoo Finance</div>
+        <div id="last-updated" style="padding:8px 10px;font-size:0.85em;color:#9ca3af;background-color:#2d3748;border-bottom:1px solid #444;font-weight:bold;"></div>
+        <div class="key-hint">↑ ↓ Use arrow keys to navigate · Refreshes 8:30a / 12p / 3:30p CST · Yahoo Finance</div>
     </div>
     <div class="chart-container">
         <div style="margin-bottom:8px;">
@@ -423,6 +424,11 @@
             var events = results[1];
             meta = results[2];
             renderEvents(events);
+            if (snapshot && snapshot.built_at) {
+                var d = new Date(snapshot.built_at);
+                var opts = {timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',hour12:true};
+                document.getElementById('last-updated').textContent = '🕐 Last Updated: ' + d.toLocaleString('en-US', opts) + ' CST';
+            }
             renderGroups();
         }).catch(function() {
             document.getElementById('groups-container').innerHTML = '<div class="loading-msg">LOADING DATA... (Run scripts/build_data.py or wait for GitHub Actions)</div>';
