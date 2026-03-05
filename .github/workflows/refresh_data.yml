@@ -3,7 +3,11 @@ name: Refresh dashboard data
 
 on:
   schedule:
-    # Run Mon–Fri at 16:30 US Eastern (20:30 UTC); skip weekends
+    # Pre-market: Mon–Fri 8:30 AM CST (13:30 UTC)
+    - cron: '30 13 * * 1-5'
+    # Midday: Mon–Fri 12:00 PM CST (17:00 UTC)
+    - cron: '0 17 * * 1-5'
+    # Post-close: Mon–Fri 3:30 PM CST (20:30 UTC)
     - cron: '30 20 * * 1-5'
   workflow_dispatch: # Allow manual run
 
